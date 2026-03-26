@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: moodo-server
+    runtime: node
+    startCommand: npm start
+    workingDirectory: server
+    envVars:
+      - key: NODE_ENV
+        value: production
