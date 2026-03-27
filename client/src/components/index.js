@@ -8,6 +8,9 @@ export { default as ArchitectureDiagram } from './common/ArchitectureDiagram';
 export { default as LoadingSpinner } from './common/LoadingSpinner';
 export { default as PrivacyBanner } from './common/PrivacyBanner';
 export { default as StatCard } from './common/StatCard';
+export { default as Toast } from './common/Toast';
+export { default as ToastContainer } from './common/ToastContainer';
+export { default as ErrorBoundary } from './common/ErrorBoundary';
 // dashboard components
 export { default as DashboardHeader } from './dashboard/DashboardHeader';
 export { default as InsightCard } from './dashboard/InsightCard';
